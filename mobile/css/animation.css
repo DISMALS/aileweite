@@ -1,0 +1,189 @@
+﻿@charset "utf-8";
+/*
+    制作时间：2016.3.29
+    作者：王勇
+    用途：艾勒维特手机版动画效果
+*/
+
+/*首页动画一*/
+@keyframes indexOne{
+    0%{left:-50%;}
+    20%{left:-40%;}
+    40%{left:-30%;}
+    60%{left:-20%;}
+    80%{left:-10%;}
+    100%{left:0%;}
+}
+@-o-keyframes indexOne{
+    0%{left:-50%;}
+    20%{left:-40%;}
+    40%{left:-30%;}
+    60%{left:-20%;}
+    80%{left:-10%;}
+    100%{left:0%;}
+}
+@-moz-keyframes indexOne{
+    0%{left:-50%;}
+    20%{left:-40%;}
+    40%{left:-30%;}
+    60%{left:-20%;}
+    80%{left:-10%;}
+    100%{left:0%;}
+}
+@-webkit-keyframes indexOne{
+    0%{left:-50%;}
+    20%{left:-40%;}
+    40%{left:-30%;}
+    60%{left:-20%;}
+    80%{left:-10%;}
+    100%{left:0%;}
+}
+@-ms-keyframes indexOne{
+    0%{left:-50%;}
+    20%{left:-40%;}
+    40%{left:-30%;}
+    60%{left:-20%;}
+    80%{left:-10%;}
+    100%{left:0%;}
+}
+.indexOne{
+    animation:indexOne 0.5s linear both;
+    -o-animation:indexOne 0.5s linear both;
+    -moz-animation:indexOne 0.5s linear both;
+    -webkit-animation:indexOne 0.5s linear both;
+}
+
+/*首页动画二*/
+@keyframes indexTwo{
+    0%{right:-50%;}
+    20%{right:-40%;}
+    40%{right:-30%;}
+    60%{right:-20%;}
+    80%{right:-10%;}
+    100%{right:0%;}
+}
+@-o-keyframes indexTwo{
+    0%{right:-50%;}
+    20%{right:-40%;}
+    40%{right:-30%;}
+    60%{right:-20%;}
+    80%{right:-10%;}
+    100%{right:0%;}
+}
+@-moz-keyframes indexTwo{
+    0%{right:-50%;}
+    20%{right:-40%;}
+    40%{right:-30%;}
+    60%{right:-20%;}
+    80%{right:-10%;}
+    100%{right:0%;}
+}
+@-webkit-keyframes indexTwo{
+    0%{right:-50%;}
+    20%{right:-40%;}
+    40%{right:-30%;}
+    60%{right:-20%;}
+    80%{right:-10%;}
+    100%{right:0%;}
+}
+@-ms-keyframes indexTwo{
+    0%{right:-50%;}
+    20%{right:-40%;}
+    40%{right:-30%;}
+    60%{right:-20%;}
+    80%{right:-10%;}
+    100%{right:0%;}
+}
+.indexTwo{
+    animation:indexTwo 0.5s linear both;
+    -o-animation:indexTwo 0.5s linear both;
+    -moz-animation:indexTwo 0.5s linear both;
+    -webkit-animation:indexTwo 0.5s linear both;
+}
+/*首页动画三*/
+@keyframes indexThree{
+    0%{left:-50%;}
+    20%{left:-35.2%;}
+    40%{left:-20.4%;}
+    60%{left:-5.6%;}
+    80%{left:9.2%;}
+    100%{left:24%;}
+}
+@-o-keyframes indexThree{
+    0%{left:-50%;}
+    20%{left:-35.2%;}
+    40%{left:-20.4%;}
+    60%{left:-5.6%;}
+    80%{left:9.2%;}
+    100%{left:24%;}
+}
+@-moz-keyframes indexThree{
+    0%{left:-50%;}
+    20%{left:-35.2%;}
+    40%{left:-20.4%;}
+    60%{left:-5.6%;}
+    80%{left:9.2%;}
+    100%{left:24%;}
+}
+@-webkit-keyframes indexThree{
+    0%{left:-50%;}
+    20%{left:-35.2%;}
+    40%{left:-20.4%;}
+    60%{left:-5.6%;}
+    80%{left:9.2%;}
+    100%{left:24%;}
+}
+@-ms-keyframes indexThree{
+    0%{left:-50%;}
+    20%{left:-35.2%;}
+    40%{left:-20.4%;}
+    60%{left:-5.6%;}
+    80%{left:9.2%;}
+    100%{left:24%;}
+}
+.indexThree{
+    animation:indexThree 0.5s linear both;
+    -o-animation:indexThree 0.5s linear both;
+    -moz-animation:indexThree 0.5s linear both;
+    -webkit-animation:indexThree 0.5s linear both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

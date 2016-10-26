@@ -1,0 +1,497 @@
+﻿@charset "utf-8";
+/*
+    制作时间：2016.3.25
+    作者：王勇
+    用途：艾勒维特公司业务、寄语、商业合作、业务详情、招聘、招聘详情、新闻列表、新闻详情这些页面的样式
+*/
+
+/*共用部分*/
+body{
+    position:relative;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+.allCase{
+    width:100%;
+    height:100%;
+    /*overflow:hidden;*/
+    background:url(../images/case/caseBg.jpg) no-repeat center top;
+    background-size:cover;
+}
+.caseMain{
+     width:1280px;
+     min-height:400px;
+     margin:0px auto;
+     position:relative;
+     top:189px;
+     /*overflow:hidden;*/
+}
+@media all and (min-width: 0px){
+.caseMainT{
+     width:1280px;
+     min-height:400px;
+     position:absolute;
+     top:130px;
+     z-index:15;
+     opacity:0; 
+     filter:alpha(opacity = 0);
+}
+}
+.caseMainT{
+     width:1280px\9;
+     min-height:400px\9;
+     position:absolute\9;
+     top:130px\9;
+     z-index:15\9;
+     padding-top: 40px;
+}
+h2.logo{
+    width:164px;
+    height:47px;
+    background:url(../images/loogo.png) no-repeat left center;
+    font-size:0px;
+    position:absolute;
+    top:30px;
+    left:73px;
+    z-index:999;
+}
+h2.logo a{
+    width:164px;
+    height:47px;
+    display:block;
+}
+a.menuAll{
+    width:40px;
+    height:40px;
+    padding-left:50px;
+    font-size:12px;
+    color:#fff;
+    text-transform:uppercase;
+    line-height:40px;
+    position:absolute;
+    top:22px;
+    right:84px;
+    z-index:999;
+}
+.caseMainT{
+     top:206px;
+}
+
+
+/*公司业务部分*/
+
+.caseMain h2.title{
+    height:80px;
+    line-height:30px;
+    text-align:center;
+    font-size:40px;
+    color:#fff;
+    background:url(../images/other/business_3.jpg) no-repeat center bottom;
+    margin-bottom:60px;
+}
+.caseMain h2.title b{
+    font-size:16px;
+}
+.caseMain .companyB{
+    width:1280px;
+    height:auto;
+    margin:90px auto 0px auto;
+}
+.caseMain .companyB ul.companyList{
+    width:960px;
+    height:auto;
+    overflow:hidden;
+    position:relative;
+    margin:0px auto;
+}
+.caseMain .companyB ul.companyList li{
+    width:220px;
+    height:auto;
+    float:left;
+    margin:0px 50px;
+    position:relative;
+}
+.companyB ul.companyList li.ones{
+    top:270px;
+    top:0px\9;
+}
+.companyB ul.companyList li.twos{
+    top:270px;
+    top:0px\9;
+}
+.companyB ul.companyList li.threes{
+    top:270px;
+    top:0px\9;
+}
+.companyB ul.companyList li.fours{
+    top:270px;
+    top:0px\9;
+}
+.caseMain .companyB ul.companyList li a{
+    color:#fff;
+}
+.caseMain .companyB ul.companyList li:hover a,.caseMain .companyB ul.companyList li.foucs a{
+    color:#00FFFF;
+}
+.caseMain .companyB ul.companyList li:hover a h2,.caseMain .companyB ul.companyList li.foucs a h2{
+    background:url(../images/other/business_2.png) no-repeat center;
+}
+.caseMain .companyB ul.companyList li a h2{
+    height:138px;
+    text-align:center;
+    line-height:138px;
+    background:url(../images/other/business_1.png) no-repeat center;
+    font-size:50px;
+}
+.caseMain .companyB ul.companyList li a h4{
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    font-size:16px;
+    font-weight:bold;
+    margin-top:20px;
+}
+.caseMain .companyB ul.companyList li a p{
+    padding:0px 5px;
+    font-size:12px;
+    line-height:24px;
+    height:72px;
+    overflow:hidden;
+    text-align:center;
+}
+.popAllText .wbs{
+    width:910px;
+    height:500px;
+    margin:30px 30px 30px 60px;
+}
+
+/*公司业务详情部分*/
+.popAllText{
+    width:1000px;
+    height:550px;
+    position:absolute;
+    top:0px;
+    left:109px;
+    z-index:10;
+    background:#0A0B16;
+}
+.popAllText a.caseClose{
+    width:32px;
+    height:32px;
+    display:block;
+    position:absolute;
+    top:-40px;
+    right:5px;
+    background:url(../images/case/caseClose.png) no-repeat center;
+}
+.popAllText .testMain{
+    width:910px;
+    height:auto;
+    float:left;
+}
+.popAllText .testMain h3{
+    color:#00FFFF;
+    font-size:24px;
+    line-height:30px;
+    margin:30px 0px 30px 0px;
+}
+.testMain img{
+    display:block;
+    margin-bottom:20px;
+}
+.popAllText .testMain p{
+    width:870px;
+    height:auto;
+    font-size:12px;
+    color:#fff;
+    line-height:36px;
+}
+/*商业合作*/
+.caseMain h2.titlet{
+    height:90px;
+    line-height:40px;
+    text-align:center;
+    font-size:40px;
+    color:#00FFFF;
+    background:url(../images/other/caseFl.jpg) no-repeat center bottom;
+    margin-bottom:60px;
+}
+.hezuoPop{
+    width:910px;
+    height:auto;
+    position:relative;
+    overflow:hidden;
+}
+
+.popAllText .wb{
+    width:910px;
+    height:470px;
+    margin:30px 30px 30px 60px;
+}
+.caseMain h2.titlet b{
+    font-size:28px;
+}
+.companyB ul.cooperList{
+    width:880px;
+    height:410px;
+    margin:0px auto;
+    position:relative;
+}
+.companyB ul.cooperList li{
+    width:152px;
+    height:152px;
+    position:absolute;
+    background:url(../images/other/cooperation_1.png) no-repeat center;
+}
+.companyB ul.cooperList li img{
+    width:88px;
+    height:58px;
+    margin:47px 32px;
+}
+.companyB ul.cooperList li.one{
+    top:0px;
+    left:0px;
+}
+.companyB ul.cooperList li.two{
+    top:0px;
+    left:182px;
+}
+.companyB ul.cooperList li.three{
+    top:0px;
+    left:364px;
+}
+.companyB ul.cooperList li.four{
+    top:0px;
+    left:546px;
+}
+.companyB ul.cooperList li.five{
+    top:0px;
+    right:0px;
+}
+.companyB ul.cooperList li.six{
+    top:128px;
+    left:86px;
+}
+.companyB ul.cooperList li.seven{
+    top:128px;
+    left:272px;
+}
+.companyB ul.cooperList li.eight{
+    top:128px;
+    left:454px;
+}
+.companyB ul.cooperList li.nine{
+    top:128px;
+    left:636px;
+}
+.companyB ul.cooperList li.ten{
+    bottom:0px;
+    left:0px;
+}
+.companyB ul.cooperList li.elv{
+    bottom:0px;
+    left:182px;
+}
+.companyB ul.cooperList li.trv{
+    bottom:0px;
+    left:364px;
+}
+.companyB ul.cooperList li.thirt{
+    bottom:0px;
+    left:546px;
+}
+.companyB ul.cooperList li.fourt{
+    bottom:0px;
+    right:0px;
+}
+/*人才招聘部分*/
+.sliderMain{
+    width:1040px;
+    height:550px;
+    padding:35px 30px 35px 30px;
+    position:relative;
+    margin:0px auto;
+    background:#0A0B16;
+    z-index:9;
+}
+.sliderMain h2{
+    width:300px;
+    height:46px;
+    line-height:46px;
+    font-size:38px;
+    color:#00ffff;
+}
+.sliderMain a.duble{
+    width:38px;
+    height:38px;
+    display:block;
+    position:absolute;
+    top:35px;
+}
+.sliderMain a.prev{
+    right:73px;
+    background:url(../images/other/prev_next.png) no-repeat left center;
+}
+.sliderMain a.next{
+    right:30px;
+    background:url(../images/other/prev_next.png) no-repeat right center;
+}
+.sliderMain .recruiMain{
+    width:1040px;
+    height:auto;    
+    margin:0px auto;
+    overflow:hidden;
+}
+.sliderMain .recruiMain .zhaopMain{
+    width:1040px;
+    height:auto;
+    float:left;
+}
+.sliderMain .recruiMain .zhaopMain a.zpMainText{
+    width:890px;
+    height:90px;
+    display:block;
+    padding:35.5px 0px 35.5px 0px;
+    color:#fff;
+    padding-left:30px;
+}
+.zhaopMain a.zpMainText span{
+    width:88px;
+    height:88px;
+    border:1px solid #fff;
+    display:inline-block;
+    float:left;
+    font-family:Arial;
+    margin-right:30px;
+}
+.zhaopMain a.zpMainText span b{
+    width:88px;
+    height:38px;
+    display:block;
+    line-height:38px;
+    text-align:center;
+    font-size:36px;
+    margin-top:14px;
+}
+.zhaopMain a.zpMainText span em{
+    width:88px;
+    height:20px;
+    display:block;
+    line-height:20px;
+    text-align:center;
+    font-size:12px;
+
+}
+.zhaopMain a.zpMainText h3{
+    width:770px;
+    height:40px;
+    line-height:40px;
+    font-size:24px;
+}
+.zhaopMain a.zpMainText p{
+    font-size:14px;
+    height:50px;
+    line-height:25px;
+    overflow:hidden;
+}
+.borbot{
+    border-bottom:1px solid #12131D;
+}
+/*人才招聘详情部分*/
+.alone{
+    overflow:initial;
+}
+.recruitCommon{
+    width:1040px;
+    height:550px;
+    padding:35px 30px 35px 30px;
+    position:relative;
+    margin:0px auto;
+    background:#0A0B16;
+}
+a.caseClose{
+    width:32px;
+    height:32px;
+    /*display:block !important;*/
+    position:absolute;
+    top:-40px;
+    right:5px;
+    cursor:pointer;
+    background:url(../images/case/caseClose.png) no-repeat center;
+}
+.recruitCommon .commonText{
+    width:1000px;
+    height:470px;
+    position:relative;
+    margin:30px 30px 30px 10px;
+    overflow:hidden;
+}
+.recruitCommon h2{
+    width:300px;
+    height:46px;
+    line-height:46px;
+    font-size:38px;
+    color:#00ffff;
+}
+.recruitCommon .commonText h3{
+    font-size:24px;
+    line-height:30px;
+    color:#fff;
+}
+.recruitCommon .commonText b.time{
+    font-size:14px;
+    line-height:40px;
+    color:#fff;
+}
+.recruitCommon .commonText .textCommonM{
+    width:940px;
+    height:auto;
+}
+.recruitCommon .commonText .textCommonM p{
+    font-size:12px;
+    color:#fff;
+    line-height:26px;
+}
+.recruitCommon .commonText em{
+    color:#00ffff;
+    font-size:14px;
+    line-height:30px;
+}
+
+/*新闻列表部分*/
+.zhaopMain a.zpMainText img{
+    display:inline-block;
+    float:left;
+    margin-right:30px;
+}
+.recruitCommon .commonText .textCommonM img{
+    display:block;
+    margin:30px auto;
+}
+
+
+/*滚动条样式*/
+.viewport{
+    width:940px;
+    height:470px;
+    overflow:hidden;
+    position:relative;
+}
+.viewport .overview {  
+    width:940px;
+    height:auto;
+}
+.slimScrollBar{
+    background: url(../images/other/gundBtn.png) no-repeat 50% 100% !important; 
+    height: 25px !important; 
+    width: 6px; 
+    cursor: pointer; 
+}
+
+
+
+
+
+
+

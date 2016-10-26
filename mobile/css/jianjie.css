@@ -1,0 +1,350 @@
+﻿@charset "utf-8";
+/*
+    制作时间：2016.3.29
+    作者：王勇
+    用途：公司简介样式
+*/
+
+
+/*头部部分*/
+header.head{
+    width:100%;
+    height:4rem;
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:66;
+}
+.head h2{
+    width:33%;
+    height:auto;
+    margin-top:0.65rem;
+    float:left;
+    margin-left:4%;
+}
+.head h2 img{
+    width:100%;
+    height:auto;
+    max-width:138px;
+    max-height:40px;
+    display:block;
+}
+.head a.menuBtn{
+    width:7%;
+    height:2rem;
+    margin-top:0.6rem;
+    float:right;
+    margin-right:5%;
+    background:url(../images/menu.png) no-repeat center;
+    background-size:contain;
+}
+.head ul.menuMain{
+    width:0%;
+    height:auto;
+    position:absolute;
+    background:rgb(16,17,37);
+    display:block;
+    padding-top:3rem;
+    padding-bottom:3rem;
+    opacity:0;
+}
+.head ul.menuMain i.close{
+    width:5%;
+    height:1.3rem;
+    position:absolute;
+    top:1rem;
+    right:1rem;
+    background:url(../images/close.png) no-repeat center;
+}
+.head ul.menuMain li{
+    width:80%;
+    height:4rem;
+    line-height:4rem;
+    padding-left:20%;
+}
+.head ul.menuMain li a{
+    width:100%;
+    height:4rem;
+    display:block;
+    color:rgb(204,204,204);
+    font-size:1.3rem;
+}
+.head ul.menuMain li a h3{
+    min-width:15%;
+    height:2rem;
+    float:left;
+    line-height:2rem;
+    margin-left:2%;
+    padding-right:15px;
+    margin:1rem 0rem;
+}
+.head ul.menuMain li a h3:hover,.head ul.menuMain li a h3:active{
+    border-right:3px solid #00ffff;
+}
+.head ul.menuMain li a b{
+    width:5%;
+    height:4rem;
+    display:inline-block;
+    color:rgba(255,255,255,0.1);
+    font-size:1.2rem;
+    margin-right:5%;
+    float:left;
+    line-height:3.8rem;
+}
+.head ul.menuMain li a em{
+    width:6px;
+    height:2.6rem;
+    float:left;
+    margin-top:0.7rem;
+    margin-left:2%;
+    display:inline-block;
+    background:#00ffff;
+}
+/*公司简介主体部分*/
+article.abstractTop{
+    width:100%;
+    height:auto;
+    padding:8rem 0rem 4rem 0rem;
+    background:url(../images/list/abstractBg.jpg) no-repeat center top;
+    background-size:cover;
+    text-align:center;
+}
+article.abstractTop h2{
+    font-size:3rem;
+    line-height:3rem;
+    color:#00ffff;
+    text-transform:uppercase;
+}
+article.abstractTop h3{
+    font-size:2rem;
+    color:#fff;
+    line-height:3.6rem;
+    background:url(../images/fl.jpg) no-repeat center bottom;
+    font-weight:normal;
+    background-size:20% 9%;
+}
+article.abstractTop b{
+    font-size:1.4rem;
+    line-height:4rem;
+    color:#00ffff;
+    text-transform:uppercase;
+}
+article.abstractM{
+    width:100%;
+    height:auto;
+    background:#fff;
+}
+article.abstractM .abstractMenu{
+    width:85%;
+    height:auto;
+    text-align:center;
+    margin:0rem auto;
+    padding:1.2rem 0rem 1.2rem 0rem; 
+}
+.abstractMenu a{
+    display:inline-block;
+    font-size:1.2rem;
+    color:#111125;
+    padding:0.6rem 0.8rem;
+    border:2px solid #111125; 
+    margin:0.5rem 0.3rem;
+}
+.abstractMenu a.on{
+    color:#fff;
+    background:#111125;
+}
+article.abstractM .gl{
+    width:100%;
+    height:1.2rem;
+    background:url(../images/list/gl.png) no-repeat center top;
+    background-size:cover;
+}
+.abstractMText{
+    width:96%;
+    height:auto;
+    padding:0.5rem 2%;
+}
+.MTextOne{
+    width:100%;
+    height:auto;
+}
+h2.commonT{
+    height:4rem;
+    line-height:4rem;
+    font-size:1.3rem;
+    color:#333;
+    font-weight:bold;
+    overflow:hidden;
+    padding-left:2%;
+}
+h2.commonT b{
+    display:inline-block;
+    width:8%;
+    height:4px;
+    background:#00ffff;
+    margin-left:2%;
+    margin-top:3px;
+}
+.tempWrap{
+    margin:0px auto;
+}
+.textMain{
+    width:100%;
+    height:auto;
+    padding:1rem 0rem;
+}
+.textMain img{
+    width:100%;
+    height:auto;
+}
+.textMain p{
+    font-size:1rem;
+    color:#555555;
+    line-height:1.6rem;
+    text-indent:2rem;
+}
+.textMain p em{
+    display:block;
+    text-align:right;
+    padding-right:2rem;
+}
+.textMain b.fd{
+    display:block;
+    font-weight:bold;
+    color:#333333;
+    font-size:1rem;
+    line-height:1.6rem;
+    text-indent:2rem;
+}
+.textMain p.tubiao{
+    position:relative;
+    text-indent:0rem !important;
+    padding-left:7%;
+    margin-top:0.6rem;
+}
+.textMain p.tubiao b{
+    width:4%;
+    height:100%;
+    position:absolute;
+    display:block;
+    top:0.3rem;
+    left:0rem;
+}
+.textMain p.tubiao b img{
+    width:100%;
+    height:auto;
+    max-width:22px;
+    max-height:22px;
+    display:block;
+}
+.textMain p.jiyu{
+    /*background:#f2f2f2;*/
+    padding:1rem 2%;
+    margin-top:2rem;
+    font-size:1rem;
+    text-indent:2rem;
+    line-height:1.6rem;
+}
+.textMain p.jiyu img{
+    display:block;
+    width:60%;
+    height:auto;
+    margin:0.6rem auto;
+}
+.sliderMain{
+    width:100%;
+    height:auto;
+}
+.textMain p.map{
+    position:relative;
+    text-indent:0rem !important;
+    padding-left:7%;
+    margin-top:1rem;
+}
+.textMain p.map i{
+    width:4%;
+    height:100%;
+    position:absolute;
+    display:block;
+    top:0.3rem;
+    left:0rem;
+}
+.textMain p.map i img{
+    width:100%;
+    height:auto;
+    max-width:22px;
+    max-height:22px;
+    display:block;
+}
+.textMain p.map b{
+    font-size:1.2rem;
+    color:#333;
+    font-weight:bold;
+    display:block;
+    line-height:1.8rem;
+    margin-bottom:0.5rem;
+}
+
+/*底部部分*/
+footer.foot{
+    width:100%;
+    height:7rem;
+    background:#101125;
+    padding:2.4rem 0rem 0rem 0rem;
+}
+footer.foot p{
+    width:95%;
+    height:auto;
+    margin:0rem auto;
+    line-height:2.4rem;
+    text-align:center;
+    font-size:1.2rem;
+    color:#343547;
+}
+footer.foot p b{
+    color:#787985;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

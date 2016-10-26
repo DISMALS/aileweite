@@ -1,0 +1,230 @@
+﻿@charset "utf-8";
+/*
+    制作时间：2016.3.26
+    作者：王勇
+    用途：艾勒维特大事记、公司简介、寄语、联系、企业文化、愿景、责任这些页面的样式
+*/
+/*共用部分*/
+body{
+    position:relative;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+.allCase{
+    width:100%;
+    overflow:hidden;
+    background:url(../images/case/caseBg.jpg) no-repeat center top;
+    background-size:cover;
+}
+.caseMainT{
+     width:1280px;
+     height:650px;
+     position:absolute;
+     top:130px;
+     overflow:hidden;
+     z-index:15;
+     opacity:0; 
+     filter:alpha(opacity = 0);
+}
+.caseMains{
+     width:950px;
+     height:500px;
+     margin:0px auto;
+     position:relative;
+     top:189px;
+     overflow:hidden;
+}
+h2.logo{
+    width:164px;
+    height:47px;
+    background:url(../images/loogo.png) no-repeat left center;
+    font-size:0px;
+    position:absolute;
+    top:30px;
+    left:73px;
+    z-index:999;
+}
+h2.logo a{
+    width:164px;
+    height:47px;
+    display:block;
+}
+a.menuAll{
+    width:40px;
+    height:40px;
+    padding-left:50px;
+    font-size:12px;
+    color:#fff;
+    text-transform:uppercase;
+    line-height:40px;
+    position:absolute;
+    top:22px;
+    right:84px;
+    z-index:999;
+}
+
+.caseMains ul.hd{
+    width:500px;
+    height:50px;
+    position:absolute;
+    top:0px;
+    left:338px;
+    z-index:5;
+    color:#fff;
+}
+.caseMains ul.hd li{
+    width:50px;
+    height:22px;
+    line-height:22px;
+    float:left;
+    background:url(../images/other/abstract_1.png) no-repeat center top;
+    text-align:center;
+    margin:0px 10px;
+    padding-top:28px;
+    cursor:pointer;
+    font-size:12px;
+}
+.caseMains ul.hd li.on,.caseMains ul.hd li:hover{
+    background:url(../images/other/abstract_2.png) no-repeat center top;
+    color:#00ffff;
+}
+.caseMains div.sliderTextM{
+    width:950px;
+    height:500px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:3;
+}
+div.sliderTextM .mainOne{
+    width:950px;
+    height:500px;
+    position:relative;
+} 
+div.sliderTextM .mainOne .leftPic{
+    width:284px;
+    height:450px;
+    position:relative;
+    background:url(../images/other/abstract_3.png) no-repeat left 18px;
+    padding-top:50px;
+}
+div.sliderTextM .mainOne .leftPic h2{
+    width:185px;
+    height:64px;
+    overflow:hidden;
+    font-size:24px;
+    color:#00ffff;
+    line-height:36px;
+    background:url(../images/other/abstract_4.jpg) no-repeat left bottom;
+    margin-left:50px;
+}
+div.sliderTextM .mainOne .leftPic h2 b{
+    font-size:16px;
+    line-height:20px;
+    display:block;
+}
+div.sliderTextM .mainOne .leftPic img{
+    width:237px;
+    height:357px;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+}
+div.sliderTextM .mainOne .rightText{
+    width:585px;
+    height:415px;
+    float:right;
+    padding-top:85px;
+    position:absolute;
+    top:0px;
+    right:0px;
+    z-index:3;
+    color:#fff;
+}
+div.sliderTextM .mainOne .rightText h3{
+    font-size:42px;
+    line-height:62px;
+}
+div.sliderTextM .mainOne .rightText h3 b{
+    display:block;
+    line-height:30px;
+    font-size:26px;
+}
+div.sliderTextM .mainOne .rightText p{
+    font-size:12px;
+    line-height:30px;
+    margin-top:5px;
+    letter-spacing:1px;
+}
+.mainOne .rightText .leftBg{
+    width:12px;
+    height:278px;
+    position:absolute;
+    top:120px;
+    left:-40px;
+    background:url(../images/other/abstract_5.png) no-repeat left top;
+}
+div.sliderTextM .mainOne .rightText p.dsj{
+    margin-top:26px;
+}
+
+.rightText ul.addressText{
+    width:585px;
+    min-height:210px;
+    max-height:303px;
+}
+.rightText ul.addressText li{
+    width:585px;
+    min-height:210px;
+    max-height:303px;
+    overflow:hidden;
+}
+.rightText ul.addressText li h4{
+    font-size:24px;
+    color:#fff;
+    line-height:30px;
+}
+.rightText ul.addressText li p{
+    line-height:30px !important;
+    margin-top:10px !important;
+    letter-spacing:1px !important;
+}
+.rightText ul.neiTab{
+    width:374px;
+    height:auto;
+}
+.rightText ul.neiTab li{
+    width:80px;
+    height:31px;
+    border:1px solid #fff;
+    line-height:31px;
+    text-align:center;
+    margin:23px 5px 0px 5px;
+    float:left;
+    color:#fff;
+    font-size:14px;
+    cursor:pointer;
+}
+.rightText ul.neiTab li:hover,.rightText ul.neiTab li.on{
+    color:#00ffff;
+    border:1px solid #00ffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

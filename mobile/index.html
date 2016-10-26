@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content="艾勒维特">
+    <meta name="description" content="艾勒维特">
+    <meta name="viewport" content="width = device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable = no" />
+    <!--禁止缩放-->
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <!--全屏显示-->
+    <meta content="telephone=no" name="format-detection" />
+    <!--告诉设备忽略将页面中的数字识别为电话号码-->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <title>艾勒维特首页</title>
+    <link href="css/common.css" rel="stylesheet" type="text/css" />
+    <link href="css/animation.css" rel="stylesheet" type="text/css" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+</head>
+<body>
+<!--头部部分-->
+<header class="head">
+    <h2><img src="images/logo.png" /></h2>
+    <a class="menuBtn"></a>
+    <ul class="menuMain">
+        <i class="close"></i>
+        <li><a href="index.html" target="_blank"><b>01</b><h3>首页</h3></a></li>
+        <li><a href="abstract.html" target="_blank"><b>02</b><h3>艾勒维特</h3></a></li>
+        <li><a href="business.html" target="_blank"><b>03</b><h3>公司业务</h3></a></li>
+        <li><a href="newsList.html" target="_blank"><b>04</b><h3>新闻中心</h3></a></li>
+        <li><a href="caseList.html" target="_blank"><b>05</b><h3>客户案例</h3></a></li>
+        <li><a href="cooperation.html" target="_blank"><b>06</b><h3>商业合作</h3></a></li>
+        <li><a href="recruit.html" target="_blank"><b>07</b><h3>人才招聘</h3></a></li>
+    </ul>
+</header>
+<!--第一部分-->
+<article class="mainOne">
+    <h3>中国电梯门媒体</h3>
+    <h2>领导者</h2>
+    <b>navigator</b>
+    <p>覆盖全国一线城市<br />超过百万部电梯黄金广告位89%的超高频广告到达率让世界在一夜之间认识你</p>
+    <img src="images/xx.png" />
+</article>
+<!--第二部分-->
+<article class="mainTwo">
+    <h2><i></i>优势<b>advantage</b></h2>
+    <div class="sliderMain">
+        <a class="prev" href="javascript:void(0)"></a>
+        <a class="next" href="javascript:void(0)"></a>
+        <ul class="hd">
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <ul class="slideText">
+            <li>
+                <a href="#" target="_blank">
+                    <img src="images/test/sliderPic.png" />
+                    <h3>投资少</h3>
+                    <p>和平面媒体相比，电梯媒体的广告费用大大降低；和电视媒体相比，电梯媒体的广告费用不值一提</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    <img src="images/test/sliderPic.png" />
+                    <h3>投资少</h3>
+                    <p>和平面媒体相比，电梯媒体的广告费用大大降低；和电视媒体相比，电梯媒体的广告费用不值一提</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    <img src="images/test/sliderPic.png" />
+                    <h3>投资少</h3>
+                    <p>和平面媒体相比，电梯媒体的广告费用大大降低；和电视媒体相比，电梯媒体的广告费用不值一提</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</article>
+<!--第三部分-->
+<article class="mainThree">
+    <h2><i></i>公司业务<b>company’s business</b></h2>
+    <div class="thMain">
+        <a class="liOne"><b>01</b><h4>电梯门广告</h4></a>
+        <a class="liTwo"><b>03</b><h4>电梯框架广告</h4></a>
+        <a class="liThree"><b>04</b><h4>广告全案策划</h4></a>
+    </div>
+</article>
+<!--第四部分-->
+<article class="mainFour">
+    <h2><i></i>经典案例<b>case</b></h2>
+    <ul class="fMain">
+        <li><a href="caseCommon.html" target="_blank"><img src="images/test/test_1.jpg" /></a></li>
+        <li><a href="caseCommon.html" target="_blank"><img src="images/test/test_2.jpg" /></a></li>
+        <li><a href="caseCommon.html" target="_blank"><img src="images/test/test_1.jpg" /></a></li>
+        <li><a href="caseCommon.html" target="_blank"><img src="images/test/test_2.jpg" /></a></li>
+        <div class="cl"></div>
+    </ul>
+</article>
+<!--底部部分-->
+<footer class="foot">
+    <p><b>艾勒维特广告有限公司</b>&nbsp;版权所有 ©2016-2026<br />豫icp备-201600123666</p>
+</footer>
+<script type="text/javascript">
+    jQuery(".sliderMain").slide({ mainCell: ".slideText", effect: "left", autoPlay: true, delayTime: 700 });
+</script>
+</body>
+</html>

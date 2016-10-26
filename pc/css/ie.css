@@ -1,0 +1,661 @@
+﻿@charset "utf-8";
+/*
+    制作时间：2016.3.24
+    作者：王勇
+    用途：仅供ie8浏览器使用
+*/
+
+/*logo 菜单以及其他公共部分样式*/
+body{
+    position:relative;
+    width:100%;
+    height:100%;
+}
+h2.logo{
+    width:164px;
+    height:47px;
+    background:url(../images/loogo.png) no-repeat left center;
+    font-size:0px;
+    position:absolute;
+    top:30px;
+    left:73px;
+    z-index:999;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+h2.logo a{
+    width:164px;
+    height:47px;
+    display:block;
+}
+a.menuAll{
+    width:40px;
+    height:40px;
+    padding-left:50px;
+    font-size:12px;
+    color:#fff;
+    text-transform:uppercase;
+    line-height:40px;
+    position:absolute;
+    top:22px;
+    right:84px;
+    z-index:999;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+a.menu{
+    background:url(../images/sy_8.png) no-repeat left center;
+}
+a.menuClose{
+    background:url(../images/menuClose.png) no-repeat left center;
+}
+div.menuMain{
+    width:100%;
+    height:100%;
+    display:none;
+    opacity:0;
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:998;
+    background:rgb(11,12,26);
+}
+div.menuMain ul{
+    width:1124px;
+    height:124px;
+    margin:0px auto;
+    position:relative;
+}
+div.menuMain ul li{
+    width:127px;
+    height:124px;
+    float:left;
+    margin-left:20px;
+    position:relative;
+    overflow: hidden;
+}
+div.menuMain ul li i.biankuang{
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	z-index: 99;
+}
+div.menuMain ul li i.biankuang_1{
+	height: 0px;
+	top: 0px;
+	left:0px;
+	border-left: 2px solid #00ffff;
+}
+div.menuMain ul li i.biankuang_2 {
+	width: 0px;
+	bottom:0px;
+	left: 0px;
+	border-top: 2px solid #00ffff;
+}
+div.menuMain ul li i.biankuang_3{
+	height: 0px;
+	bottom:0px;
+	right:0px;
+	border-right: 2px solid #00ffff;
+
+}
+div.menuMain ul li i.biankuang_4{
+	width:0px;
+	top:0px;
+	right:0px;
+	border-bottom: 2px solid #00ffff;
+}
+div.menuMain ul li.ons{
+    width:123px;
+    height:120px;
+    border:2px solid #00ffff;
+}
+div.menuMain ul li a:hover{
+    color:#00ffff;
+}
+div.menuMain ul li a:hover b{
+    line-height:48px;
+    margin:8px auto 20px auto;
+    border-bottom:2px solid #00ffff;
+}
+div.menuMain ul li.ons a{
+    color:#00ffff;
+}
+div.menuMain ul li.ons a b{
+    line-height:48px;
+    margin:8px auto 20px auto;
+    border-bottom:2px solid #00ffff;
+}
+div.menuMain ul li a{
+    width:127px;
+    height:124px;
+    font-size:14px;
+    color:#fff;
+    text-align:center;
+    display:block;
+    letter-spacing:4px;
+}
+div.menuMain ul li a b{
+    width:45px;
+    height:50px;
+    font-size:30px;
+    line-height:50px;
+    display:block;
+    margin:10px auto 20px auto;
+    border-bottom:2px solid #FFF;
+    letter-spacing:normal;
+}
+p.lianxi{
+    width:320px;
+    height:40px;
+    line-height:20px;
+    position:absolute;
+    bottom:10px;
+    left:40px;
+    z-index:999;
+    margin-left:4px;
+}
+div.zhishi{
+    width:19px;
+    height:auto;
+    position:absolute;
+    bottom:10px;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+div.zhishi img{
+    display:block;
+    margin-bottom:10px;
+}
+div.zhishi img.yd{
+    margin-left:7px;
+    margin-bottom:4px;
+}
+
+
+/*第一屏部分*/
+.slideOne{
+    width:100%;
+    height:100%;
+    background:url(../images/syOne/pinOneBg.jpg) no-repeat center top;
+    /*background-attachment:fixed;*/
+    background-size:cover;
+    position:relative;
+    top:0px;
+    left:0px;
+    z-index:1;
+    overflow:hidden;
+}
+.slideOneMain{
+    width:100%;
+    height:980px;
+    position:relative;
+    /*padding-top:145px;*/
+}
+.slideOneMain .textMain{
+    width:1210px;
+    height:580px;
+    margin:0px auto;
+    position:relative;
+    background:url(../images/syOne/sy_12.png) no-repeat 385px center;
+}
+.slideOneMain .textMain .mainLeft{
+    width:440px;
+    height:580px;
+    background:url(../images/syOne/sy_5.png) no-repeat left center;
+    background-size:80% auto;
+    float:left;
+    position:relative;
+    top:0px;
+    left:0px;
+    overflow:hidden;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+.textMain .mainLeft img{
+    position:relative;
+    /*58px*/
+}
+.textMain .mainLeft img.syO{
+    top:147.5px;
+    left:58px;
+}
+.textMain .mainLeft img.syT{
+    top:167px;
+    left:58px;
+}
+.textMain .mainLeft img.syTh{
+    top:179px;
+    left:58px;
+}
+.textMain .mainLeft img.syF{
+    top:189px;
+    left:58px;
+}
+.textMain .mainCenter{
+    width:416px;
+    height:580px;
+    float:left;
+    position:relative;
+    left:45px;
+    top:0px;
+}
+.textMain .mainCenter img.hx{
+    width:416px;
+    height:416px;
+    position:absolute;
+    top:112.5px;
+    z-index:2;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+.textMain .mainCenter img.yh{
+    width:406px;
+    height:213px;
+    position:absolute;
+    top:-80px;
+    z-index:3;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+.textMain .mainCenter div.hj{
+    width:234px;
+    height:459px;
+    position:relative;
+    top:-20px;
+    left:86.5px;
+    z-index:4;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+#gifM{
+    width:1100px;
+    height:800px;
+    position:absolute;
+    top:-185px;
+    left:-430.5px;
+}
+embed#gif{
+    width:1100px;
+    height:800px;
+    top:-185px;
+    left:-422.5px;
+}
+#mainRight{
+    width:280px;
+    height:400px;
+    text-align:right;
+    position:relative !important;
+    right:0px !important;
+    overflow:hidden;
+}
+#mainRight h3{
+    width:280px;
+    display:inline-block;
+    color:#2FE2E5;
+    font-size:16px;
+    line-height:102px;
+}
+#mainRight h3 a{
+    color:#2FE2E5;
+}
+#mainRight h3.textT{
+    /*margin-left:220px;*/
+    margin-left:0px !important;
+}
+#mainRight h3.textTh{
+    /*margin-left:220px;*/
+    margin-left:0px !important;
+}
+#mainRight h3.fousText{
+    font-size:25px;
+    /*margin-left:220px;*/
+    margin-left:0px !important;
+}
+#mainRight h3 a font{
+    color:#33FFFF;
+    font-size:34px;
+    font-weight:bold;
+    margin-right:10px;
+}
+
+/*第二屏部分*/
+.slideTwo{
+    width:100%;
+    height:100%;
+    background:url(../images/syTwo/pinTwoBg.jpg) no-repeat center top !important;
+    /*background-attachment:fixed;*/
+    background-size:cover;
+    position:relative;
+    top:0px;
+    left:0px;
+    z-index:1;
+}
+.slideTwo .twoMain{
+    width:680px;
+    height:290px;
+    margin:0px auto;
+    position:relative;
+    z-index:2;
+}
+.twoMain .twoMainL{
+    width:227px;
+    height:266px;
+    float:left;
+    margin-top:12px;
+    overflow:hidden;
+}
+.twoMain .twoMainL img{
+    position:relative;
+    z-index:1;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+.twoMain .twoMainL h4{
+    width:130px;
+    height:80px;
+    line-height:80px;
+    font-size:52px;
+    color:#fff;
+    position:absolute;
+    top:105px;
+    left:100px;
+    z-index:2;
+}
+.twoMain .twoMainR{
+    width:410px;
+    height:auto;
+    float:left;
+    margin-left:43px;
+}
+.twoMain .twoMainR img.fgqg{
+    margin-top:45px;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+.twoMain .twoMainR img.yxcs{
+    margin-top:15px;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+.twoMain .twoMainR img.yw{
+    margin-top:15px;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+.textTwoM{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:1;
+    filter:alpha(opacity = 5);
+    opacity:0.05;
+    color:#fff;
+}
+.textTwoM h3{
+    position:absolute;
+    z-index:1;
+    font-size:60px;
+}
+.textTwoM h3.largeOne{
+    left:42%;
+    top:18%;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+.textTwoM h3.largeTwo{
+    top:22%;
+    right:15%;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+.textTwoM h3.largeThree{
+    top:20%;
+    right:14%;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+.textTwoM h3.largeFour{
+    bottom:25%;
+    right:17%;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+.textTwoM h3.largeFive{
+    top:20%;
+    left:20%;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+.textTwoM h4{
+    font-size:48px;
+    position:absolute;
+    z-index:1;
+}
+.textTwoM h4.normalOne{
+    top:31%;
+    left:15%;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+.textTwoM h4.normalTwo{
+    right:13%;
+    bottom:40%;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+.textTwoM h4.normalThree{
+    left:37%;
+    bottom:20%;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+.textTwoM h5{
+    font-size:32px;
+    position:absolute;
+    z-index:1;
+}
+.textTwoM h5.smallOne{
+    left:15%;
+    bottom:48%;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+    font-size:60px;
+}
+.textTwoM h5.smallTwo{
+    left:22%;
+    bottom:20%;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+    font-size:60px;
+}
+.textTwoM h5.smallThree{
+    top:8%;
+    right:40%;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+.textTwoM h5.smallFour{
+    bottom:15%;
+    right:12%;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+.textTwoM h6{
+    font-size:20px;
+    position:absolute;
+    z-index:1;
+}
+.textTwoM h6.smallsO{
+    right:20%;
+    bottom:50%;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+    font-size:60px;
+}
+.textTwoM h6.smallsT{
+    top:25%;
+    right:43%;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+
+/*第三屏部分*/
+.slideThree{
+    width:100%;
+    height:100%;
+    background:url(../images/syThree/pinThreeBg.jpg) no-repeat center top !important;
+    /*background-attachment:fixed;*/
+    background-size:cover;
+    position:relative;
+    top:0px;
+    left:0px;
+    z-index:1;
+}
+.slideThree .threeMain{
+    width:930px;
+    height:425px;
+    margin:0px auto;
+    position:relative;
+    z-index:2;
+}
+.slideThree .threeMain .threeMainL{
+    float:left;
+    width:350px;
+    height:420px;
+    position:relative;
+}
+.slideThree .threeMain .threeMainL a{
+    display:block;
+    height:420px;
+    color:#fff;
+}
+.slideThree .threeMain .threeMainL a div{
+    position:absolute;
+}
+.threeMainL a div b{
+    display:none;
+    text-align:center;
+    font-size:30px;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+.threeMainL div.iconOne{
+    width:149px;
+    height:170px;
+    line-height:170px;
+    top:0px;
+    left:45px;
+    background:url(../images/syThree/endBg_1.png) no-repeat center;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+
+.threeMainL div.iconTwo{
+    width:98px;
+    height:111px;
+    line-height:111px;
+    top:20px;
+    right:40px;
+    background:url(../images/syThree/endBg_2.png) no-repeat center;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+.threeMainL div.iconThree{
+    width:98px;
+    height:111px;
+    top:131px;
+    right:0px;
+    background:url(../images/syThree/three_3.png) no-repeat center;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+.threeMainL div.iconFour{
+    width:98px;
+    height:111px;
+    top:150px;
+    left:130px;
+    background:url(../images/syThree/three_4.png) no-repeat center;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+.threeMainL div.iconFive{
+    width:98px;
+    height:111px;
+    line-height:111px;
+    top:146px;
+    left:0px;
+    background:url(../images/syThree/endBg_2.png) no-repeat center;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+.threeMainL div.iconSix{
+    width:149px;
+    height:170px;
+    line-height:170px;
+    bottom:5px;
+    left:33px;
+    background:url(../images/syThree/endBg_3.png) no-repeat center;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+.threeMainL div.iconSeven{
+    width:98px;
+    height:111px;
+    line-height:111px;
+    bottom:68px;
+    right:60px;
+    background:url(../images/syThree/endBg_2.png) no-repeat center;
+    filter:alpha(opacity = 100) !important;
+    opacity:1 !important;
+}
+.threeMainL div img{
+    position:absolute;
+}
+.threeMainL div.iconOne img{
+    display:block;
+    top:47.5px;
+    left:36.5px;
+}
+.threeMainL div.iconTwo img{
+    display:block;
+    top:33px;
+    left:25.5px;
+}
+.threeMainL div.iconFive img{
+    display:block;
+    top:34px;
+    left:26.5px;
+}
+.threeMainL div.iconSix img{
+    display:block;
+    top:49.5px;
+    left:39px;
+}
+.threeMainL div.iconSeven img{
+    display:block;
+    top:30.5px;
+    left:26.5px;
+}
+.threeMainR{
+    width:480px;
+    height:420px;
+    margin-left:85px;
+    float:left;
+    padding-top:60px;
+    overflow:hidden;
+}
+.threeMainR img.titleThree{
+    margin-top:0px;
+    margin-bottom:25px;
+}
+.threeMainR img.threeft{
+    margin-bottom:15px;
+}
+.threeMainR p{
+    color:#fff;
+    font-size:14px;
+    line-height:20px;
+}
